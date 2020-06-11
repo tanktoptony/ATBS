@@ -40,3 +40,8 @@ except:
     errorFile.write(traceback.format_exc())
     errorFile.close()
     print('The traceback info was written to error_log.txt')
+
+
+# assertions
+
+assert False, 'This is the error message.'
